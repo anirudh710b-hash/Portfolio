@@ -2,7 +2,7 @@
 
 Personal portfolio website of **Anirudh Kaushik**, a Computer Science undergraduate (AI specialization) and full-stack developer.
 
-**Live site:** https://github.com/anirudh710b-hash
+**Live site:** https://anirudh710b-hash.github.io/Portfolio/
 
 ## About
 
@@ -42,7 +42,7 @@ HTML5, CSS3, and a small amount of JavaScript. The font is Bricolage Grotesque f
 ## Project Structure
 
 ```
-anirudh710b-hash.github.io/
+Portfolio/
 ├── index.html   # the entire website
 └── README.md    # this file
 ```
@@ -51,30 +51,30 @@ anirudh710b-hash.github.io/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/anirudh710b-hash/anirudh710b-hash.github.io.git
+   git clone https://github.com/anirudh710b-hash/Portfolio.git
    ```
 2. Open the folder and double-click `index.html`, or serve it locally:
    ```bash
-   cd anirudh710b-hash.github.io
+   cd Portfolio
    python -m http.server 8000
    ```
    Then visit http://localhost:8000.
 
 ## Deploy to GitHub Pages
 
-1. Create a **public** repository named exactly `anirudh710b-hash.github.io`.
+1. Create a **public** repository named `Portfolio`.
 2. Push the files:
    ```bash
    git init
    git add .
    git commit -m "Add portfolio website"
    git branch -M main
-   git remote add origin https://github.com/anirudh710b-hash/anirudh710b-hash.github.io.git
+   git remote add origin https://github.com/anirudh710b-hash/Portfolio.git
    git push -u origin main
    ```
 3. On GitHub, go to **Settings → Pages**.
 4. Under **Build and deployment**, set **Source** to **Deploy from a branch**, choose branch **main** and folder **/ (root)**, then click **Save**.
-5. Wait a minute or two. The site will be live at https://anirudh710b-hash.github.io.
+5. Wait a minute or two. The site will be live at https://anirudh710b-hash.github.io/Portfolio/.
 
 ## Updating the Site
 
